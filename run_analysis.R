@@ -54,4 +54,4 @@ colnames(dataset2)[1:2] <- c("Subject", "Activity")
 
 ## wiriting data
 
-write.table(dataset2, file = "./Data_tidy.txt", row.name = FALSE)
+write.table(dataset2, file = "./Data_tidy.txt", row.name = FALSE, sep = "\t")
